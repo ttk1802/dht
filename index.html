@@ -18,7 +18,15 @@
     <!-- App CSS -->
     <link rel="stylesheet" href="css/app-light.css" id="lightTheme">
     <link rel="stylesheet" href="css/app-dark.css" id="darkTheme" disabled>
-    
+    <style>
+      .alert{
+        display: none;
+      }
+      .card-deck{
+        margin: 12.5%;
+      }
+      
+    </style>
   </head>
   <body class="vertical light">
     <div class="wrapper">      
@@ -33,7 +41,7 @@
                   </div>
                   <div class="card-body">
                     <!-- <form> -->
-                      <div class="alert alert-success" role="alert">  </div>
+                      <div class="alert alert-success" aria-hidden="false" role="alert">  </div>
                       <div class="alert alert-info" role="alert">  </div>
                       <div class="alert alert-warning" role="alert">  </div>                      
                       <div class="alert alert-danger" role="alert">  </div>
