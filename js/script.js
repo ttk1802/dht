@@ -2,6 +2,10 @@ $(document).ready(function(){
     $(".alert").hide();
     $(".card-deck").css({'margin' : '12.5%'});
 });
+$(document).load(function(){
+    $(".alert").hide();
+    $(".card-deck").css({'margin' : '12.5%'});
+});
 function f_clear(){
     var arrInput =  document.querySelectorAll('.form-control');
     for (const key in arrInput) {
